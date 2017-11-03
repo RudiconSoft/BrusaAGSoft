@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrusaAGSoft", "BrusaAGSoft\BrusaAGSoft.csproj", "{03D92CBD-A8BC-4FC4-9246-CB7743D6D575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrusaMessageCreator", "BrusaMessageCreator\BrusaMessageCreator.csproj", "{D1CC112A-8158-4952-90AC-94C2390FF085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitVectorConsole", "BitVectorConsole\BitVectorConsole.csproj", "{19A6F290-1D91-4551-9685-4B24D0E4D490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{03D92CBD-A8BC-4FC4-9246-CB7743D6D575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03D92CBD-A8BC-4FC4-9246-CB7743D6D575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03D92CBD-A8BC-4FC4-9246-CB7743D6D575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CC112A-8158-4952-90AC-94C2390FF085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CC112A-8158-4952-90AC-94C2390FF085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CC112A-8158-4952-90AC-94C2390FF085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CC112A-8158-4952-90AC-94C2390FF085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A6F290-1D91-4551-9685-4B24D0E4D490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A6F290-1D91-4551-9685-4B24D0E4D490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A6F290-1D91-4551-9685-4B24D0E4D490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A6F290-1D91-4551-9685-4B24D0E4D490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
