@@ -19,7 +19,9 @@ namespace BrusaMessageCreator
 
         private void btnMessage711_Click(object sender, EventArgs e)
         {
+            Message711Form m711 = new Message711Form();
 
+            m711.ShowDialog();
         }
     }
 }

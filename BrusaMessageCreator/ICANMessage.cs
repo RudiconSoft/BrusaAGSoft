@@ -6,23 +6,24 @@ using System.Threading.Tasks;
 
 namespace BrusaMessageCreator
 {
+    [Serializable]
     public class MessageValue
     {
         private string name;
-        private UInt32 value;
+        private UInt16 value;
         private byte offset;
         private byte size;
 
         public string Name { get => name; set => this.name = value; }
         public byte Size { get => size; set => this.size = value; }
         public byte Offset { get => offset; set => this.offset = value; }
-        public uint Value { get => value; set => this.value = value; }
+        public UInt16 Value { get => value; set => this.value = value; }
 
         public MessageValue()
         {
 
         }
-        public MessageValue(string name, UInt32 value, byte offset, byte size)
+        public MessageValue(string name, UInt16 value, byte offset, byte size)
         {
             this.name = name;
             this.value = value;
@@ -30,8 +31,6 @@ namespace BrusaMessageCreator
             this.size = size;
         }
     }
-
-
 
     public interface ICANMessage
     {

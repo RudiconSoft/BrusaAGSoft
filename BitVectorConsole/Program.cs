@@ -3,6 +3,7 @@ using System.Collections.Specialized;
 
 namespace Message711Test
 {
+    [Serializable]
     public class MessageValue
     {
         private string name;
@@ -46,8 +47,8 @@ namespace Message711Test
             //NLG_C_EnPhaseShift NLG_DEM_LIM 51  1
             //NLG_AcPhaseShift NLG_DEM_LIM 52  12
             MessageValue[] msgs = new MessageValue[13];
-            BitVector32.Section[] sec_v1 = new BitVector32.Section[7];
-            BitVector32.Section[] sec_v2 = new BitVector32.Section[7];
+            //BitVector32.Section[] sec_v1 = new BitVector32.Section[7];
+            //BitVector32.Section[] sec_v2 = new BitVector32.Section[7];
 
             // Initialize Message values for example
             ushort[] vals = 
